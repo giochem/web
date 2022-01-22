@@ -76,7 +76,7 @@ function getRemaindingTime(){
   // if ( t < 0) {
   //   clearInterval();
   // }
-
+// 
 }
 let countdown = setInterval(getRemaindingTime, 1000);
 getRemaindingTime();
