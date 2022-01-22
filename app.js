@@ -45,7 +45,7 @@ function getRemaindingTime(){
   const today = new Date().getTime();
   const t = futureTime - today;
   
-  // 1m = 60s
+  
   // 1hr = 60m
   // 1d = 24hr
   const oneDay = 24 * 60 * 60 * 1000;
